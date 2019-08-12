@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  line-height: 1.4;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Normal Nav Links styling */
+
+.nav-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 10vh;
+  background-color: plum;
+  max-width: 700px;
+  margin: auto;
+  border-radius: 0 0 7px 7px;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fas {
+  color: brown;
+}
+
+.fas:hover {
+  color: gold;
+}
+
+/* More Nav Links styling */
+
+.more-nav-container {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  max-height: 5vh;
+  background: palevioletred;
+  max-width: 700px;
+  margin: auto;
+  border-radius: 7px 7px 0 0;
+}
+
+.show {
+  display: flex;
+}
+
+.more-nav-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0.5rem auto;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.more-nav-links a {
+  text-decoration: none;
+  padding: 0.2rem;
+  color: white;
+}
+
+.more-nav-links a:hover {
+  color: greenyellow;
+}
